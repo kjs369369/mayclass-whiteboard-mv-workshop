@@ -99,7 +99,7 @@ ffprobe -v error -count_frames -select_streams v:0 \
   -show_entries stream=width,height,nb_read_frames,r_frame_rate \
   -show_entries format=duration -of csv=p=0 \
   assets/whiteboard/mayclass-dreamers/scene-01-first-step-whiteboard.mp4
-# → 2560,1420,1020,30/1
+# → 2560,1420,30/1,1020
 #    34.000000
 ```
 

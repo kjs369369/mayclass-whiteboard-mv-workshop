@@ -46,7 +46,7 @@
 | [09](docs/STEP-09-오디오먹싱-검수.md) | 합치기·먹싱·검수 | 10분 |
 
 **[`docs/함정노트.md`](docs/함정노트.md)를 먼저 읽으세요.** 실제로 만들면서 걸린
-함정 11개가 정리돼 있습니다. 이걸 모르면 STEP 07에서 손이 화면을 덮거나,
+함정 13개가 정리돼 있습니다. 이걸 모르면 STEP 07에서 손이 화면을 덮거나,
 STEP 09에서 완성 순간 화면 전체가 확 바뀌는 결함을 만나게 됩니다.
 
 ---
@@ -81,7 +81,7 @@ macOS·Linux는 `.venv/Scripts/python`을 `.venv/bin/python`으로 바꿉니다.
 ffprobe -v error -count_frames -select_streams v:0 \
   -show_entries stream=width,height,nb_read_frames,r_frame_rate \
   -of csv=p=0 out/my-scene-01.mp4
-# → 2560,1420,1020,30/1
+# → 2560,1420,30/1,1020
 ```
 
 > `PYTHONUTF8=1`, `--cap-long-edge 2560`, `--fps 30` 세 개는 **빼면 안 됩니다.**
@@ -102,7 +102,7 @@ mayclass-whiteboard-mv-workshop/
 │   └── SKILL.md                  한국어 스킬 (진입점 1)
 ├── docs/
 │   ├── 00-개요.md ~ STEP-09-*.md  실습 교재 (진입점 2)
-│   ├── 함정노트.md                실전 함정 A~K
+│   ├── 함정노트.md                실전 함정 A~M
 │   └── 설계-mayclass-dreamers.md  Dreamers 설계 원문
 ├── scripts/                      렌더러 6종
 │   ├── prepare_env.py             가상환경 준비
