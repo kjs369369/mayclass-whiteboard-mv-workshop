@@ -1,0 +1,171 @@
+{
+  "sceneId": "scene-02",
+  "canvas": {
+    "width": 2752,
+    "height": 1536
+  },
+  "storyBasis": "할 수 있을까 묻는 사람 곁에 누군가 손을 내민다. 물음이 답이 되고, 한 걸음씩 가까워진다.",
+  "sceneDurationMs": 24200,
+  "elements": [
+    {
+      "id": "asking",
+      "label": "묻는 사람",
+      "sequence": 1,
+      "narrativeRole": "할 수 있을까 망설이는 순간",
+      "subtitle": "When we say, Can I really do this?",
+      "type": "structure",
+      "region": {
+        "x": 261,
+        "y": 635,
+        "width": 408,
+        "height": 564
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 600,
+        "durationMs": 5200,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          465,
+          635
+        ],
+        "end": [
+          465,
+          1199
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "reaching",
+      "label": "손 내미는 사람",
+      "sequence": 2,
+      "narrativeRole": "곁에서 건네는 응원",
+      "subtitle": "You smile and say, 괜찮아, just try",
+      "type": "structure",
+      "region": {
+        "x": 828,
+        "y": 675,
+        "width": 329,
+        "height": 525
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 6100,
+        "durationMs": 4600,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          992,
+          675
+        ],
+        "end": [
+          992,
+          1200
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "bulb",
+      "label": "켜지는 전구",
+      "sequence": 3,
+      "narrativeRole": "물음이 답이 되는 순간",
+      "subtitle": "You make every day feel brighter",
+      "type": "structure",
+      "region": {
+        "x": 1195,
+        "y": 281,
+        "width": 326,
+        "height": 383
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 11000,
+        "durationMs": 4200,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1358,
+          281
+        ],
+        "end": [
+          1358,
+          664
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "footsteps",
+      "label": "발자국",
+      "sequence": 4,
+      "narrativeRole": "한 걸음씩 가까워진다",
+      "subtitle": "Step by step, we're getting closer",
+      "type": "structure",
+      "region": {
+        "x": 1322,
+        "y": 1046,
+        "width": 911,
+        "height": 163
+      },
+      "reveal": {
+        "direction": "left_to_right",
+        "startMs": 15500,
+        "durationMs": 3800,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1777,
+          1046
+        ],
+        "end": [
+          1777,
+          1209
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "shine",
+      "label": "빛나기 시작",
+      "sequence": 5,
+      "narrativeRole": "계속 빛나라는 응원",
+      "subtitle": "Keep shining, Mei, we believe in you",
+      "type": "structure",
+      "region": {
+        "x": 2233,
+        "y": 627,
+        "width": 277,
+        "height": 320
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 19600,
+        "durationMs": 3100,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          2371,
+          627
+        ],
+        "end": [
+          2371,
+          947
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "sceneId": "scene-03",
+  "canvas": {
+    "width": 2752,
+    "height": 1536
+  },
+  "storyBasis": "질문이 새로운 것으로 퍼진다. 길 위에서 한 사람은 불꽃을, 한 사람은 노래를 들고 나란히 간다.",
+  "sceneDurationMs": 23100,
+  "elements": [
+    {
+      "id": "idea",
+      "label": "퍼지는 생각",
+      "sequence": 1,
+      "narrativeRole": "질문이 새로운 것이 된다",
+      "subtitle": "You turn a question into something new",
+      "type": "structure",
+      "region": {
+        "x": 302,
+        "y": 215,
+        "width": 430,
+        "height": 418
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 600,
+        "durationMs": 4000,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          517,
+          215
+        ],
+        "end": [
+          517,
+          633
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "seedling",
+      "label": "자라는 화분",
+      "sequence": 2,
+      "narrativeRole": "꿈이 이루어진다",
+      "subtitle": "And make us feel that dreams can all come true",
+      "type": "structure",
+      "region": {
+        "x": 411,
+        "y": 968,
+        "width": 209,
+        "height": 321
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 4900,
+        "durationMs": 2700,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          515,
+          968
+        ],
+        "end": [
+          515,
+          1289
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "brighter",
+      "label": "더 빛나는 별",
+      "sequence": 3,
+      "narrativeRole": "오늘보다 더 빛나게",
+      "subtitle": "오늘보다 더 빛나게",
+      "type": "structure",
+      "region": {
+        "x": 2125,
+        "y": 297,
+        "width": 248,
+        "height": 259
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 7900,
+        "durationMs": 2500,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          2249,
+          297
+        ],
+        "end": [
+          2249,
+          556
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "path",
+      "label": "앞으로 난 길",
+      "sequence": 4,
+      "narrativeRole": "계속 나아가는 방향",
+      "subtitle": "We're moving forward all the way",
+      "type": "structure",
+      "region": {
+        "x": 1500,
+        "y": 865,
+        "width": 1053,
+        "height": 503
+      },
+      "reveal": {
+        "direction": "left_to_right",
+        "startMs": 10700,
+        "durationMs": 4000,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          2026,
+          865
+        ],
+        "end": [
+          2026,
+          1368
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "spark-person",
+      "label": "불꽃을 든 사람",
+      "sequence": 5,
+      "narrativeRole": "한 사람이 주는 불씨",
+      "subtitle": "You give the spark",
+      "type": "structure",
+      "region": {
+        "x": 914,
+        "y": 653,
+        "width": 199,
+        "height": 332
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 15000,
+        "durationMs": 3200,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1013,
+          653
+        ],
+        "end": [
+          1013,
+          985
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "song-person",
+      "label": "노래를 든 사람",
+      "sequence": 6,
+      "narrativeRole": "다른 한 사람이 얹는 노래",
+      "subtitle": "We bring the song",
+      "type": "structure",
+      "region": {
+        "x": 1636,
+        "y": 639,
+        "width": 218,
+        "height": 333
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 18500,
+        "durationMs": 3100,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1745,
+          639
+        ],
+        "end": [
+          1745,
+          972
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}

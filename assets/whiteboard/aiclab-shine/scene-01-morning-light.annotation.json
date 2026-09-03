@@ -1,0 +1,171 @@
+{
+  "sceneId": "scene-01",
+  "canvas": {
+    "width": 2752,
+    "height": 1536
+  },
+  "storyBasis": "아침 빛이 방에 든다. 늘 앉던 자리와 따뜻한 한 잔, 그리고 조금씩 보이기 시작하는 꿈.",
+  "sceneDurationMs": 31000,
+  "elements": [
+    {
+      "id": "window",
+      "label": "창문과 아침 빛",
+      "sequence": 1,
+      "narrativeRole": "방으로 들어오는 아침",
+      "subtitle": "Morning light is dancing in the room",
+      "type": "structure",
+      "region": {
+        "x": 631,
+        "y": 202,
+        "width": 535,
+        "height": 554
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 700,
+        "durationMs": 6300,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          898,
+          202
+        ],
+        "end": [
+          898,
+          756
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "desk",
+      "label": "책상과 노트북",
+      "sequence": 2,
+      "narrativeRole": "늘 앉던 자리",
+      "subtitle": "Morning light is dancing in the room",
+      "type": "structure",
+      "region": {
+        "x": 461,
+        "y": 959,
+        "width": 609,
+        "height": 446
+      },
+      "reveal": {
+        "direction": "left_to_right",
+        "startMs": 7300,
+        "durationMs": 7000,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          765,
+          959
+        ],
+        "end": [
+          765,
+          1405
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "cup",
+      "label": "따뜻한 한 잔",
+      "sequence": 3,
+      "narrativeRole": "아침의 온기",
+      "subtitle": "Every little dream is coming into view",
+      "type": "structure",
+      "region": {
+        "x": 1143,
+        "y": 1147,
+        "width": 164,
+        "height": 219
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 14600,
+        "durationMs": 3400,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1225,
+          1147
+        ],
+        "end": [
+          1225,
+          1366
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "figure",
+      "label": "바라보는 사람",
+      "sequence": 4,
+      "narrativeRole": "올려다보는 메이",
+      "subtitle": "When we say, Can I really do this?",
+      "type": "structure",
+      "region": {
+        "x": 1434,
+        "y": 657,
+        "width": 150,
+        "height": 390
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 18300,
+        "durationMs": 6200,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1509,
+          657
+        ],
+        "end": [
+          1509,
+          1047
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "dreams",
+      "label": "떠오르는 꿈들",
+      "sequence": 5,
+      "narrativeRole": "조금씩 보이기 시작하는 것",
+      "subtitle": "Every little dream is coming into view",
+      "type": "structure",
+      "region": {
+        "x": 1876,
+        "y": 161,
+        "width": 295,
+        "height": 338
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 24800,
+        "durationMs": 4700,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          2023,
+          161
+        ],
+        "end": [
+          2023,
+          499
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}

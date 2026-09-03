@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 실습 산출물 — 수강생이 직접 만드는 것이라 커밋하지 않는다
+out/*
+!out/.gitkeep
+_cam-0*.mp4
+_concat.txt
+_merged.mp4
+*-preview.mp4
+*-regions.png
+
+# 교재 자산은 예외로 남긴다 (수강생이 결과를 비교할 기준)
+!assets/whiteboard/*/*-whiteboard.mp4
+!assets/whiteboard/*/*-final.mp4
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini

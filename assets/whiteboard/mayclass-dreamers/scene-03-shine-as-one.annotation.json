@@ -1,0 +1,267 @@
+{
+  "sceneId": "scene-03",
+  "canvas": {
+    "width": 2752,
+    "height": 1536
+  },
+  "storyBasis": "태양보다 밝게 빛난다. 흩어져 있던 드리머스가 하나로 모이고, 별이 되어 이름을 남긴다.",
+  "sceneDurationMs": 22760,
+  "elements": [
+    {
+      "id": "sun",
+      "label": "한가운데의 빛",
+      "sequence": 1,
+      "narrativeRole": "태양보다 밝게",
+      "subtitle": "Shine, 메이클래스, brighter than the sun",
+      "type": "structure",
+      "region": {
+        "x": 950,
+        "y": 199,
+        "width": 845,
+        "height": 841
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 500,
+        "durationMs": 5000,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1372,
+          199
+        ],
+        "end": [
+          1372,
+          1040
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "dreamer-1",
+      "label": "드리머 1",
+      "sequence": 2,
+      "narrativeRole": "하나로 모이는 우리",
+      "subtitle": "Dreamers united, now we are one",
+      "type": "structure",
+      "region": {
+        "x": 818,
+        "y": 831,
+        "width": 136,
+        "height": 294
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 5800,
+        "durationMs": 1700,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          886,
+          831
+        ],
+        "end": [
+          886,
+          1125
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "dreamer-2",
+      "label": "드리머 2",
+      "sequence": 3,
+      "narrativeRole": "하나로 모이는 우리",
+      "subtitle": "Dreamers united, now we are one",
+      "type": "structure",
+      "region": {
+        "x": 1006,
+        "y": 1008,
+        "width": 153,
+        "height": 282
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 7700,
+        "durationMs": 1700,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1082,
+          1008
+        ],
+        "end": [
+          1082,
+          1290
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "dreamer-3",
+      "label": "드리머 3",
+      "sequence": 4,
+      "narrativeRole": "하나로 모이는 우리",
+      "subtitle": "Dreamers united, now we are one",
+      "type": "structure",
+      "region": {
+        "x": 1285,
+        "y": 1051,
+        "width": 178,
+        "height": 278
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 9600,
+        "durationMs": 1700,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1374,
+          1051
+        ],
+        "end": [
+          1374,
+          1329
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "dreamer-4",
+      "label": "드리머 4",
+      "sequence": 5,
+      "narrativeRole": "하나로 모이는 우리",
+      "subtitle": "Dreamers united, now we are one",
+      "type": "structure",
+      "region": {
+        "x": 1606,
+        "y": 996,
+        "width": 153,
+        "height": 283
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 11500,
+        "durationMs": 1700,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1682,
+          996
+        ],
+        "end": [
+          1682,
+          1279
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "dreamer-5",
+      "label": "드리머 5",
+      "sequence": 6,
+      "narrativeRole": "하나로 모이는 우리",
+      "subtitle": "Dreamers united, now we are one",
+      "type": "structure",
+      "region": {
+        "x": 1798,
+        "y": 831,
+        "width": 136,
+        "height": 293
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 13400,
+        "durationMs": 1700,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1866,
+          831
+        ],
+        "end": [
+          1866,
+          1124
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "stars-left",
+      "label": "왼쪽 별들",
+      "sequence": 7,
+      "narrativeRole": "사랑과 희망",
+      "subtitle": "With love, with hope, with guiding flame",
+      "type": "structure",
+      "region": {
+        "x": 635,
+        "y": 271,
+        "width": 257,
+        "height": 409
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 15400,
+        "durationMs": 2300,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          763,
+          271
+        ],
+        "end": [
+          763,
+          680
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "stars-right",
+      "label": "오른쪽 별들",
+      "sequence": 8,
+      "narrativeRole": "영원히 남는 이름",
+      "subtitle": "We'll sing forever your shining name",
+      "type": "structure",
+      "region": {
+        "x": 1827,
+        "y": 258,
+        "width": 232,
+        "height": 295
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 17900,
+        "durationMs": 2300,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1943,
+          258
+        ],
+        "end": [
+          1943,
+          553
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}

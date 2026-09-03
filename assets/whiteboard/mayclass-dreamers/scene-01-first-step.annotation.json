@@ -1,0 +1,331 @@
+{
+  "sceneId": "scene-01",
+  "canvas": {
+    "width": 2752,
+    "height": 1536
+  },
+  "storyBasis": "함께 오르기 시작한다. 메이클래스가 길잡이 빛이 되고, 한 걸음씩 하늘을 좇는다.",
+  "sceneDurationMs": 34000,
+  "elements": [
+    {
+      "id": "step-1",
+      "label": "첫 발판",
+      "sequence": 1,
+      "narrativeRole": "오르기 시작하는 첫 걸음",
+      "subtitle": "Together we rise, with passion inside",
+      "type": "structure",
+      "region": {
+        "x": 824,
+        "y": 1162,
+        "width": 292,
+        "height": 172
+      },
+      "reveal": {
+        "direction": "left_to_right",
+        "startMs": 800,
+        "durationMs": 4200,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          970,
+          1162
+        ],
+        "end": [
+          970,
+          1334
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "step-2",
+      "label": "두 번째 발판",
+      "sequence": 2,
+      "narrativeRole": "함께 올라간다",
+      "subtitle": "Together we rise, with passion inside",
+      "type": "structure",
+      "region": {
+        "x": 1037,
+        "y": 1009,
+        "width": 301,
+        "height": 185
+      },
+      "reveal": {
+        "direction": "left_to_right",
+        "startMs": 5300,
+        "durationMs": 3900,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1187,
+          1009
+        ],
+        "end": [
+          1187,
+          1194
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "guiding-light",
+      "label": "길잡이 빛",
+      "sequence": 3,
+      "narrativeRole": "메이클래스가 비추는 방향",
+      "subtitle": "메이클래스, our guiding light",
+      "type": "structure",
+      "region": {
+        "x": 1853,
+        "y": 167,
+        "width": 542,
+        "height": 455
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 9500,
+        "durationMs": 4700,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          2124,
+          167
+        ],
+        "end": [
+          2124,
+          622
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "step-3",
+      "label": "세 번째 발판",
+      "sequence": 4,
+      "narrativeRole": "한 걸음씩",
+      "subtitle": "Step by step, we chase the sky",
+      "type": "structure",
+      "region": {
+        "x": 1251,
+        "y": 895,
+        "width": 310,
+        "height": 151
+      },
+      "reveal": {
+        "direction": "left_to_right",
+        "startMs": 14500,
+        "durationMs": 2600,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1406,
+          895
+        ],
+        "end": [
+          1406,
+          1046
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "step-4",
+      "label": "네 번째 발판",
+      "sequence": 5,
+      "narrativeRole": "계속 오른다",
+      "subtitle": "Step by step, we chase the sky",
+      "type": "structure",
+      "region": {
+        "x": 1475,
+        "y": 757,
+        "width": 295,
+        "height": 153
+      },
+      "reveal": {
+        "direction": "left_to_right",
+        "startMs": 17300,
+        "durationMs": 2500,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1622,
+          757
+        ],
+        "end": [
+          1622,
+          910
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "step-5",
+      "label": "다섯 번째 발판",
+      "sequence": 6,
+      "narrativeRole": "하늘에 닿는 칸",
+      "subtitle": "Step by step, we chase the sky",
+      "type": "structure",
+      "region": {
+        "x": 1667,
+        "y": 640,
+        "width": 314,
+        "height": 144
+      },
+      "reveal": {
+        "direction": "left_to_right",
+        "startMs": 20000,
+        "durationMs": 2400,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1824,
+          640
+        ],
+        "end": [
+          1824,
+          784
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "sprout",
+      "label": "새싹",
+      "sequence": 7,
+      "narrativeRole": "자라나는 배움",
+      "subtitle": "Learning hearts will never die",
+      "type": "structure",
+      "region": {
+        "x": 468,
+        "y": 1177,
+        "width": 230,
+        "height": 181
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 22600,
+        "durationMs": 2400,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          583,
+          1177
+        ],
+        "end": [
+          583,
+          1358
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "learner",
+      "label": "배우는 사람",
+      "sequence": 8,
+      "narrativeRole": "네 안에서 보는 꿈",
+      "subtitle": "Every dream, I see in you",
+      "type": "structure",
+      "region": {
+        "x": 887,
+        "y": 805,
+        "width": 172,
+        "height": 403
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 25200,
+        "durationMs": 3400,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          973,
+          805
+        ],
+        "end": [
+          973,
+          1208
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "laptop",
+      "label": "노트북",
+      "sequence": 9,
+      "narrativeRole": "메이클래스에서 배우는 것",
+      "subtitle": "Every dream, I see in you",
+      "type": "structure",
+      "region": {
+        "x": 1009,
+        "y": 829,
+        "width": 157,
+        "height": 132
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 28800,
+        "durationMs": 1600,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1087,
+          829
+        ],
+        "end": [
+          1087,
+          961
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "climber",
+      "label": "앞서 오르는 사람",
+      "sequence": 10,
+      "narrativeRole": "여정은 진짜다",
+      "subtitle": "메이클래스, the journey's true",
+      "type": "structure",
+      "region": {
+        "x": 1314,
+        "y": 529,
+        "width": 157,
+        "height": 402
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 30600,
+        "durationMs": 2900,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1392,
+          529
+        ],
+        "end": [
+          1392,
+          931
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "sceneId": "scene-02",
+  "canvas": {
+    "width": 2752,
+    "height": 1536
+  },
+  "storyBasis": "밤과 비를 지난다. 지식이 아픔을 걷어내고, 수강생들이 별이 되어 목소리를 들어올린다.",
+  "sceneDurationMs": 31000,
+  "elements": [
+    {
+      "id": "rain",
+      "label": "밤과 빗줄기",
+      "sequence": 1,
+      "narrativeRole": "시련의 배경",
+      "subtitle": "Through the nights and through the rain",
+      "type": "structure",
+      "region": {
+        "x": 348,
+        "y": 405,
+        "width": 572,
+        "height": 315
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 700,
+        "durationMs": 4500,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          634,
+          405
+        ],
+        "end": [
+          634,
+          720
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "curled-figure",
+      "label": "웅크린 사람",
+      "sequence": 2,
+      "narrativeRole": "아픔 속에 있는 사람",
+      "subtitle": "Knowledge takes away the pain",
+      "type": "structure",
+      "region": {
+        "x": 438,
+        "y": 863,
+        "width": 230,
+        "height": 340
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 5500,
+        "durationMs": 4200,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          553,
+          863
+        ],
+        "end": [
+          553,
+          1203
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "laptop-light",
+      "label": "빛나는 노트북",
+      "sequence": 3,
+      "narrativeRole": "지식이 아픔을 걷어낸다",
+      "subtitle": "Knowledge takes away the pain",
+      "type": "structure",
+      "region": {
+        "x": 1029,
+        "y": 586,
+        "width": 538,
+        "height": 397
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 10000,
+        "durationMs": 5500,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1298,
+          586
+        ],
+        "end": [
+          1298,
+          983
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "network",
+      "label": "이어지는 점과 선",
+      "sequence": 4,
+      "narrativeRole": "배움이 서로 연결된다",
+      "subtitle": "I believe in what you are",
+      "type": "structure",
+      "region": {
+        "x": 1618,
+        "y": 568,
+        "width": 320,
+        "height": 274
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 15800,
+        "durationMs": 4200,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          1778,
+          568
+        ],
+        "end": [
+          1778,
+          842
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "stars",
+      "label": "별이 된 사람들",
+      "sequence": 5,
+      "narrativeRole": "수강생들이 별이다",
+      "subtitle": "수강생들, you are the star",
+      "type": "structure",
+      "region": {
+        "x": 1996,
+        "y": 341,
+        "width": 230,
+        "height": 265
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 20300,
+        "durationMs": 3700,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          2111,
+          341
+        ],
+        "end": [
+          2111,
+          606
+        ],
+        "easing": "easeInOut"
+      }
+    },
+    {
+      "id": "rising-figure",
+      "label": "일어선 사람",
+      "sequence": 6,
+      "narrativeRole": "목소리를 들어올린다",
+      "subtitle": "Lift your voices, let them fly",
+      "type": "structure",
+      "region": {
+        "x": 2159,
+        "y": 700,
+        "width": 235,
+        "height": 511
+      },
+      "reveal": {
+        "direction": "top_to_bottom",
+        "startMs": 24300,
+        "durationMs": 5200,
+        "maskPaddingPx": 14,
+        "protectedRegions": []
+      },
+      "handPath": {
+        "start": [
+          2276,
+          700
+        ],
+        "end": [
+          2276,
+          1211
+        ],
+        "easing": "easeInOut"
+      }
+    }
+  ]
+}
