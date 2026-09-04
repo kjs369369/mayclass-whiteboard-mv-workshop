@@ -41,7 +41,19 @@ ENV_PY=C:\...\mayclass-whiteboard-mv-workshop\.venv\Scripts\python.exe
 | Windows | `.venv/Scripts/python` |
 | macOS · Linux | `.venv/bin/python` |
 
-## 3. 이미 만들어져 있으면
+## 3. 한 번에 점검하기
+
+설치가 다 됐는지 한 줄로 확인합니다.
+
+```bash
+PYTHONUTF8=1 python scripts/preflight.py
+```
+
+Python 버전·git·ffmpeg·가상환경·렌더 의존성·한글 폰트·교재 자산을 훑고
+`[OK]`/`[NG]`로 보여줍니다. `[NG]`에는 조치 명령이 붙어 있습니다.
+전부 `[OK]`면 STEP 02로 갑니다.
+
+## 4. 이미 만들어져 있으면
 
 ```bash
 PYTHONUTF8=1 python scripts/prepare_env.py --check

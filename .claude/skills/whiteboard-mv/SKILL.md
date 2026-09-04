@@ -226,7 +226,16 @@ PYTHONUTF8=1 <ENV_PY> scripts/render_stream_whiteboard.py \
 ### 8. 카메라 무빙을 얹는다
 
 렌더러에는 카메라가 없다. 무음 MP4에 ffmpeg로 별도 패스를 얹는다.
-`assets/whiteboard/mayclass-dreamers/kenburns_and_mux.sh`를 복사해 고쳐 쓴다.
+
+**1막짜리는 `scripts/kenburns_1act.sh`를 쓴다.** 해상도·프레임 수·16:9 크롭을
+입력에서 직접 읽으므로 고칠 값이 없다. 9단계의 합치기·먹싱까지 함께 끝난다.
+
+```bash
+bash scripts/kenburns_1act.sh <무음.mp4> <음원.mp3> <출력.mp4> [zoomin|pan|pullback]
+```
+
+**여러 막이면** `assets/whiteboard/mayclass-dreamers/kenburns_and_mux.sh`를 복사해
+고쳐 쓴다. 고칠 곳은 `N1 N2 N3`(각 막의 실측 프레임 수)과 파일 이름이다.
 
 곡 에너지에 맞춰 막마다 다르게 간다. 잔잔한 편곡에 큰 무브를 얹으면 화면이
 곡보다 앞서 나간다.

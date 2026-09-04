@@ -61,6 +61,23 @@ STEP 09에서 완성 순간 화면 전체가 확 바뀌는 결함을 만나게 �
 
 ---
 
+## 강의·시연으로 쓰신다면
+
+[`docs/시연-대본.md`](docs/시연-대본.md) — 1막 35초짜리 곡으로 **25~30분 라이브
+시연**을 하는 대본입니다. 곡 사양, 전날 준비, 구간별 대사, 렌더 대기 3분 30초를
+채울 이야기, 터졌을 때 백업 경로까지 들어 있습니다.
+
+시작 전에 환경을 한 번에 점검합니다.
+
+```bash
+PYTHONUTF8=1 python scripts/preflight.py
+```
+
+Python·git·ffmpeg·가상환경·렌더 의존성·한글 폰트·교재 자산을 확인하고
+`[OK]`/`[NG]`로 알려줍니다. `[NG]`에는 조치 명령이 함께 붙습니다.
+
+---
+
 ## 3분 퀵스타트
 
 준비물: Python 3.10 이상, ffmpeg, Chrome 또는 Edge.
@@ -112,15 +129,18 @@ mayclass-whiteboard-mv-workshop/
 │   └── SKILL.md                  한국어 스킬 (진입점 1)
 ├── docs/
 │   ├── 00-개요.md ~ STEP-09-*.md  실습 교재 (진입점 2)
+│   ├── 시연-대본.md               25~30분 라이브 시연 대본
 │   ├── 함정노트.md                실전 함정 A~M
 │   └── 설계-mayclass-dreamers.md  Dreamers 설계 원문
-├── scripts/                      렌더러 6종
+├── scripts/                      렌더러 + 도구
+│   ├── preflight.py               환경 점검 ← 여기부터
 │   ├── prepare_env.py             가상환경 준비
 │   ├── parse_srt.py               자막 파싱·분경 제안
 │   ├── render_annotation_preview.py  영역 검사도
 │   ├── render_stream_whiteboard.py   막별 MP4 렌더 (메인)
 │   ├── stream_render.py           렌더 엔진
-│   └── merge_scenes.py            막 합치기
+│   ├── merge_scenes.py            막 합치기
+│   └── kenburns_1act.sh           1막용 카메라 무빙+먹싱 (자동 감지)
 ├── assets/
 │   ├── drawing-hand-clean.png    기본 펜 ← 이걸 쓰세요
 │   ├── drawing-hand.png          원본 펜 (펜대에 원저자 채널명 있음)
