@@ -86,9 +86,41 @@ PY
 ### 3. 선화를 막마다 1장 생성한다 → **멈추고 확인받는다**
 
 위 시각 규범을 전부 프롬프트에 넣는다. 막마다 하나의 핵심 의미만 담는다.
-`assets/whiteboard/<프로젝트>/scene-01-<이름>.png` 로 저장한다.
+저장 위치는 `assets/whiteboard/<프로젝트>/scene-01-<이름>.png`.
 
-선화를 보여주고 **멈춘다.** 사용자가 확인하기 전에 annotation을 만들지 않는다.
+**먼저 이미지를 직접 생성할 수 있는지 확인한다.** 계정에 붙은 이미지 생성
+커넥터(Higgsfield·Abocado·Gamma 등)나 이미지 생성 스킬이 있으면 그걸 쓴다.
+이 경로에서는 사용자가 곡만 주면 되고, 이 단계도 자동으로 지나간다.
+두 완성 사례(Dreamers·Shine)가 실제로 이렇게 만들어졌다.
+
+**직접 생성할 수단이 없으면 프롬프트를 사용자에게 넘기고 기다린다.**
+
+- 막 개수만큼 프롬프트를 **복붙 가능한 형태로 통째로** 준다. 요약하지 않는다.
+- 저장할 파일 경로와 이름을 정확히 알려준다.
+- 사용자가 외부 도구(ChatGPT·Nano Banana·Midjourney 등)에서 PNG를 만들어
+  폴더에 넣을 때까지 기다린다. 그동안 다음 단계로 넘어가지 않는다.
+- PNG가 들어오면 크기와 종이 균일도를 확인한다(아래 검사 명령).
+
+어느 경로든, 선화를 보여주고 **멈춘다.** 사용자가 확인하기 전에 annotation을
+만들지 않는다.
+
+받은 선화 검사:
+
+```bash
+PYTHONUTF8=1 <ENV_PY> - <<'PY'
+import cv2, glob
+for p in sorted(glob.glob("assets/whiteboard/<프로젝트>/scene-*.png")):
+    im = cv2.imread(p); h, w = im.shape[:2]; k = 60
+    sd = max(float(c.reshape(-1,3).std(axis=0).mean()) for c in
+             (im[:k,:k], im[:k,w-k:], im[h-k:,:k], im[h-k:,w-k:]))
+    print(f"{w}x{h}  모서리 표준편차 {sd:5.2f}  "
+          f"{'OK' if w>=2560 and sd<1.5 else '확인 필요'}  {p.split('/')[-1]}")
+PY
+```
+
+긴 변이 2560 미만이면 켄번즈 확대 여유가 없고, 모서리 표준편차가 1.5를 넘으면
+종이 얼룩이 마지막 프레임에 한꺼번에 나타난다(시각 규범의 "얼룩 없는 균일한 종이"
+문구가 프롬프트에 빠졌다는 뜻이다).
 
 ### 4. annotation.json을 쓴다
 
